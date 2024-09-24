@@ -43,6 +43,6 @@ st.title('Population plot')
 # define selector (columns to draw)
 columns = st.multiselect('Countries: ', uniques_names)
 
-plot the line chart
+# plot the line chart
 # instead of the code below use terminal to run streamlit run 24_9.py and that will open browser with the graph
 st.line_chart(df_visu, x='year', y=columns, y_label='Population', x_label='Year')
