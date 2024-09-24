@@ -9,7 +9,8 @@ b) Use streamlit and create an interactive web graph where you can select the co
 import pandas as pd
 import streamlit as st
 from IPython.display import display
-file = "C:\\Users\\hived\\Desktop\\Haku yamk\\Kurssit\\Data analytics and mathematics\\population.csv"
+# file = "C:\\Users\\hived\\Desktop\\Haku yamk\\Kurssit\\Data analytics and mathematics\\population.csv"
+file = "https://github.com/Heikki1980/Pupulation_public/blob/main/population.csv"
 df = pd.read_csv(file) # Unnamed country continent year lifeExp pop gdpPercap iso_alpha iso_num
 df = df.drop(columns=['Unnamed: 0'])
 # print(df.head())
